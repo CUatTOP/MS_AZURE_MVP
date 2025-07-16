@@ -1,4 +1,4 @@
-# SentryQ: Omni-AI Incident & Quality Management
+# SentryQ: AI Incident & Quality Management
 
 AI 기반 IT 장애 및 품질관리 자동화를 위한 종합적인 솔루션으로, 워크플로우 기반의 자동화, LLM 기반 분석/ 판단, 그리고 실시간 모니터링/ 진단을 제공하여 Total 품질 인텔리전스를 Agent 형식으로 제공합니다.
 
