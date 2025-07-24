@@ -14,6 +14,47 @@
 
 LangGraph/ Azure AI 기반 (AI + 자동화) IT 장애 및 품질관리를 위한 종합적인 솔루션으로, 워크플로우 기반의 자동화, LLM 기반 분석/ 판단, 그리고 ML을 통한 실시간 모니터링/ 진단 지능화를 Agent 방식으로 제공하여 ITO 서비스의 Total 품질 인텔리전스를 극대화 합니다.
 
+### 🔑 주요 기술 요소 및 기능 매핑
+
+- **LangChain / LangGraph**  
+  - 워크플로우 자동화, Agent 모드(자동 장애 감지/분석/대응) 핵심 엔진
+
+- **Azure OpenAI (GPT-4)**  
+  - Ask 모드(자연어 질의응답, SQL 생성, 챗봇), RAG 기반 문서 검색
+
+- **Azure AI Search**  
+  - Ask 모드(RAG 문서/DB 검색), 실시간 시스템 현황 질의
+
+- **Azure AI Language**  
+  - Ask/Agent 모드(문서 요약, 키워드 추출, 감정 분석 등 자연어 처리)
+
+- **Azure AI Machine Learning**  
+  - Agent 모드(장애 예측, 감정분석, 이상탐지 등 ML 기반 자동화)
+
+- **Azure Cosmos DB / SQL Database**  
+  - DB 모드(장애/품질/이력 데이터 저장, 통합 관리)
+
+- **Azure Blob Storage**  
+  - DB 모드(대용량 로그, 리포트, 문서 파일 저장)
+
+- **Azure AI Vision / Speech**  
+  - Agent/Ask 모드(이미지 기반 장애 감지, OCR, 음성 인식 등 멀티모달 확장)
+
+- **RAG (Retrieval-Augmented Generation)**  
+  - Ask 모드(문서/DB 검색 결과 LLM 답변에 통합)
+
+- **외부 시스템 연동 (REST API 등)**  
+  - Agent/DB 모드(유관 시스템 자동화 연동, 이벤트 트리거)
+
+- **실시간 모니터링/대시보드**  
+  - Agent/DB 모드(장애 현황, 품질 지표, 처리 이력 시각화)
+
+> 각 기술 요소는 SentryQ의 Agent/Ask/DB 모드 및 주요 메뉴 기능과 직접적으로 매핑되어, IT 품질/장애 관리의 자동화·지능화·실시간 분석을 지원합니다.
+
+
+
+
+
 ### 주요 동작 모드 요약
 
 - **Agent 모드**: LangGraph 기반 자동화 워크플로우, Azure AI 연동, 실시간 장애 감지 및 대응, 이력 관리
